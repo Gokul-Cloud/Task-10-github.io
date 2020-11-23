@@ -5,7 +5,7 @@
 }
 body
 {
-  padding:1% 10%;
+  padding:2% 12%;
 }
 .frame1
 {
@@ -30,7 +30,7 @@ body
   background-image: url("bm2.jpg");
   background-size: 170px 170px;
   background-repeat: no-repeat;
-  border-radius: 100px;
+  border-radius: 90px;
   width: 170px;
   height: 170px;
   position: relative;
@@ -38,34 +38,36 @@ body
   border: 5px dotted #F8BE27;
   padding: 1px;
   -webkit-border-radius: 100px;
+}
 .name
 {
     position: relative;
-    right:4em;
-    top: 2em;
+    right:1em;
+    top: 0em;
     background-color: #F4BC1C;
     font-size: 1.9em;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
-    text-align: ;
-    height: 4em;
+    height: 3.5em;
     width:4em;
     padding: 1em;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
     padding-right: 6em;
     padding-left: 2em;
     border-radius: 2em ;
+    -webkit-border-radius: 10px;
 }
 .details
 {
     font-size: 1.5em;
     font-family: 'Lora', serif;
     color: grey;
+    text-align: center;;
 }
 
 header hr{
-    border:0.1rem dashed black;
-    width: 96.4em;
+    border:0.1rem solid black;
+    width: 90.4em;
 }    
 
   .bodyHalf1{
@@ -96,6 +98,13 @@ header hr{
     padding: 10px 20px;
     box-sizing: border-box;
     height: auto;
+  }
+  .Style1{
+    display: inline-block; text-align: left; width:49%;
+  }
+  
+  .Style2{
+    display: inline-block; text-align: right; width:49%;
   }
   
   .subhead1{
